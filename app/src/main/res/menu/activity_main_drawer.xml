@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="我的备忘录">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_menu_all"
+            android:title="所有备忘录" />
+        <item
+            android:id="@+id/nav_finish"
+            android:icon="@drawable/ic_menu_finish"
+            android:title="已完成备忘录" />
+        <item
+            android:id="@+id/nav_unfinish"
+            android:icon="@drawable/ic_menu_unfinish"
+            android:title="未完成备忘录" />
+    </group>
+    </item>
+
+    <item android:title="帐号">
+        <menu>
+            <item
+                android:id="@+id/nav_edit_user"
+                android:icon="@drawable/ic_menu_userinfo"
+                android:title="修改信息" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_exitlogin"
+                android:title="退出登录" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_goto"
+                android:title="退出备忘录" />
+        </menu>
+    </item>
+
+</menu>
